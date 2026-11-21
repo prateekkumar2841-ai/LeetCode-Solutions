@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class Main {
+    public static void addition(int x, int y){
+      System.out.println(x + y);
+    }
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int x = sc.nextInt();
+      int y = sc.nextInt();
+
+      addition(x, y);
+      subtraction(x, y);
+      multiplication(x, y);
+      division(x, y);
+    }
+    public static void subtraction(int x, int y){
+      System.out.println(x - y);
+    }
+
+    public static void multiplication(int x, int y) {
+      System.out.println(x * y);
+    }
+    public static void division(int x, int y) {
+      System.out.println(x / y);
+    }
+}
